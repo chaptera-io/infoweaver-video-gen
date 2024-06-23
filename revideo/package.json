@@ -18,6 +18,7 @@
 		"aws-sdk": "^2.1646.0",
 		"firebase-admin": "^12.2.0",
 		"get-mp3-duration": "^1.0.0",
+		"lmnt-node": "^1.2.0",
 		"uuid": "^10.0.0"
 	},
 	"devDependencies": {
