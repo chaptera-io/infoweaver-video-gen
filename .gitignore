@@ -1,0 +1,3 @@
+**/node_modules/
+revideo/src/db/*.json
+dist/
