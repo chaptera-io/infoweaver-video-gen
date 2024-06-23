@@ -29,6 +29,7 @@ async function main() {
 			await executeJob(nextJob);
 			await db.updateJobStatus(nextJob.id, 'done');
 		} catch (err) {
+			console.error(err);
 			await db.updateJobStatus(nextJob.id, 'failed');
 		}
 	}
